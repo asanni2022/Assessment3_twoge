@@ -195,15 +195,15 @@ SQLALCHEMY_DATABASE_URI=SQLALCHEMY_DATABASE_URI=postgresql://postgres:passwords@
 ## Step 6: Running project using docker compose.
 ### Remove all prebuild Images
 ```
-
+  docker rmi $(docker images)
 ```
 ### Stop all prebuild Containers
 ```
-
+  docker stop $(docker ps -aq)
 ```
 ### Remove all prebuild Containers
 ```
-
+  docker rm $(docker ps -aq)
 ```
 ### Create a docker-compose yml file
 ```
