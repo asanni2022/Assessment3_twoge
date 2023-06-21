@@ -1,0 +1,1902 @@
+    1  ansible dbservers -m ping
+    2  ansible dbservers -m ping -i inventory.ini
+    3  ansible webservers -m ping -i inventory.ini
+    4  clear
+    5  git pull
+    6  git push
+    7  pip install pyaml
+    8  python -m pyaml /path/to/some/file.yaml
+    9  python3 -m pyaml /path/to/some/file.yaml
+   10  cd ..
+   11  git clone git@github.com:asanni2022/ansible_lesson1.git
+   12  cd .ssh
+   13  ls
+   14  cat id_ed25519.pub
+   15  git clone git@github.com:asanni2022/ansible_lesson1.git
+   16  cd
+   17  cd devops-repo
+   18  clear
+   19  ls
+   20  cd alpha_platoon
+   21  git pull
+   22  clear
+   23  ls
+   24  code example-ansible-playbook-apache-is-running.yml
+   25  touch example-ansible-playbook-apache-is-running.yml
+   26  cd .ssh
+   27  ssh -i "ola-keypair.pem" ec2-user@ec2-3-12-9-213.us-east-2.compute.amazonaws.com
+   28  touch inventory
+   29  ls
+   30  pwd
+   31  ansible all -m ping -i inventory.ini
+   32  pwd
+   33  ansible all -m ping -i /Users/mac/devops-repo/alpha_platoon/ansible_lesson1/inventory.ini
+   34  sudo cp inventory.ini /etc/ansible/hosts
+   35  clear
+   36  cd 
+   37  ssh -i "ola-keypair.pem" ec2-user@ec2-3-12-9-213.us-east-2.compute.amazonaws.com
+   38  ssh ec2
+   39  ec2-wordpress
+   40  ssh ec2-wordpress
+   41  clear
+   42  code file.py
+   43  code
+   44  git pull
+   45  git add .
+   46  git push
+   47  clear
+   48  touch.
+   49  . .
+   50  .
+   51  tou
+   52  c
+   53  h
+   54  .
+   55  clear
+   56  touch examplfile.ansible.yml
+   57  ansible-inventory -i inventory.ini -y --list > inventory.ansible.yml
+   58  ansible-playbook -b example.ansible.yml -i inventory.ansible.yml
+   59  ansible-playbook -b examplefile.ansible.yml -i inventory.ansible.yml
+   60  ansible-playbook -b examplfile.ansible.yml -i inventory.ansible.yml
+   61  clear
+   62  cd .ssh
+   63  pwd
+   64  ls
+   65  ansible-playbook -b examplfile.ansible.yml -i inventory.ansible.yml
+   66  clear
+   67  history
+   68  clear
+   69  ansible all -m ping -i inventory.ini
+   70  ansible ubuntu -m ping -i inventory.ini
+   71  clear
+   72  git status
+   73  git add .
+   74  git commit -m 'updated'
+   75  git push
+   76  clear
+   77  touch test-connectivity.yml
+   78  ansible-playbook test-connectivity.yml -i inventory.ini
+   79  git add .
+   80  git commit -m 'updated ansible playbook'
+   81  git push
+   82  clear
+   83  touch copy-file.yml
+   84  echo 'i want to learn ansible' > textfile.txt
+   85  ansible-playbook copy-file.yml -i inventory.ini
+   86  clear
+   87  Ansible all -m shell -a “cat *” -i inventory.ini\n
+   88  Ansible all -m shell -a “cat*” -i inventory.ini\n
+   89  ansible all -m shell -a “cat *” -i inventory.ini\n
+   90  clear
+   91  touch ansible-install-apache.yml
+   92  ansible-playbook -b ansible-install-apache.yml -i inventory.ini
+   93  clear
+   94  ansible-playbook -b ansible-install-apache.yml -i inventory.ini
+   95  clear
+   96  ansible-playbook -b ansible-install-apache.yml -i inventory.ini
+   97  clear
+   98  ansible-playbook -b ansible-install-apache.yml -i inventory.ini
+   99  clear
+  100  ansible-playbook -b ansible-install-apache.yml -i inventory.ini
+  101  clear
+  102  ansible-playbook -b ansible-install-apache.yml -i inventory.ini
+  103  clear
+  104  ansible-playbook -b ansible-install-apache.yml -i inventory.ini
+  105  clear
+  106  ansible-playbook -b ansible-install-apache.yml -i inventory.ini
+  107  cd
+  108  clear
+  109  cd .ssh
+  110  ssh -i "ola-keypair.pem" ec2-user@ec2-3-12-9-213.us-east-2.compute.amazonaws.com
+  111  clear
+  112  ls
+  113  cd Classwork
+  114  ls
+  115  terraform destroy -auto-approve
+  116  ansible-playbook -b ansible-install-apache.yml -i inventory.ini
+  117  clear
+  118  git status
+  119  git add .
+  120  git commit -m "updated remove file"
+  121  git push
+  122  clear
+  123  exit
+  124  clear
+  125  cd
+  126  cd .ssh
+  127  ssh -i "ola-keypair.pem" ec2-user@ec2-13-59-32-138.us-east-2.compute.amazonaws.com
+  128  ssh -i "ola-keypair.pem" ec2-user@ec2-18-191-81-33.us-east-2.compute.amazonaws.com
+  129  ssh -i "ola-keypair.pem" ec2-user@ec2-13-59-32-138.us-east-2.compute.amazonaws.com
+  130  ssh -i "ola-keypair.pem" ec2-user@ec2-18-191-81-33.us-east-2.compute.amazonaws.com
+  131  terraform destroy -auto-approve
+  132  clear
+  133  cd
+  134  ssh -i "ola-keypair.pem" ec2-user@ec2-13-59-32-138.us-east-2.compute.amazonaws.com
+  135  cd .ssh
+  136  ssh -i "ola-keypair.pem" ec2-user@ec2-13-59-32-138.us-east-2.compute.amazonaws.com
+  137  ssh -i "ola-keypair.pem" ec2-user@ec2-18-191-81-33.us-east-2.compute.amazonaws.com
+  138  clear
+  139  cd ..
+  140  ls
+  141  git clone git@github.com:asanni2022/webFrameworks.git
+  142  clear
+  143  ls
+  144  cd webFrameworks
+  145  clear
+  146  curl http://127.0.0.1:8000/api/v1/lists/
+  147  curl http://13.59.32.138:8000/api/v1/lists/
+  148  ls
+  149  python -m venv `name_of_env`
+  150  python
+  151  clear
+  152  python3 --version
+  153  python3 -m venv `new_env`
+  154  python3 --upgrade
+  155  python3 -h --upgrade
+  156  python3 -m pip --version
+  157  python3 -m venv tutorial_env
+  158  source tutorial_env/bin/activate
+  159  clear
+  160  touch .env
+  161  createdb to-do
+  162  clear
+  163  ls
+  164  git add .
+  165  git commit -m 'updated source code'
+  166  git push 
+  167  clear
+  168  python3 -c 'from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())'
+  169  sudo nano .env
+  170  nano .env
+  171  docker ps
+  172  pip install django
+  173  pip install --upgrade pip
+  174  pip install django
+  175  python -m django
+  176  python -m django startproject school
+  177  pip freeze > requirements.txt
+  178  python manage.py runserver
+  179  ssh -i "ola-keypair.pem" ubuntu@ec2-3-17-177-113.us-east-2.compute.amazonaws.com
+  180  clear
+  181  ssh -i "ola-keypair.pem" ubuntu@ec2-3-17-177-113.us-east-2.compute.amazonaws.com
+  182  cd .ssh
+  183  ssh -i "ola-keypair.pem" ec2-user@ec2-18-191-81-33.us-east-2.compute.amazonaws.com
+  184  cd .ssh
+  185  ssh -i "ola-keypair.pem" ubuntu@ec2-3-17-177-113.us-east-2.compute.amazonaws.com
+  186  cd .ssh
+  187  ls
+  188  cat config
+  189  clear
+  190  ssh -i "ola-keypair.pem" ubuntu@ec2-3-17-177-113.us-east-2.compute.amazonaws.com
+  191  code
+  192  $ clang --version
+  193  cd 
+  194  $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  195  $/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  196  brew
+  197  brew update
+  198  brew doctor
+  199  clang --version
+  200  xcode-select --install
+  201  code ~/.zshrc
+  202  export PATH=$PATH:/usr/local/bin
+  203  source ~/.zshrc
+  204  which python3
+  205  clear
+  206  brew install gh
+  207  clear
+  208  psql postgres
+  209  brew install postgresql
+  210  clear
+  211  brew install postgresql
+  212  brew
+  213  brewARM install postgresql
+  214  brewarm services restart postgresql@14
+  215  brewARM services restart postgresql@14
+  216  psql postgres
+  217  clear
+  218  brewARM install gh
+  219  gh auth login
+  220  brewARM upgrade gh
+  221  print("hello")
+  222  clear
+  223  git clone git@github.com:asanni2022/Assessment2.git
+  224  ls
+  225  sudo rm -rf Assessment2
+  226  ls
+  227  cd devops-repo
+  228  clear
+  229  ls
+  230  cd alpha_platoon
+  231  git clone git@github.com:asanni2022/Assessment2.git
+  232  mkdir terraformfolder
+  233  cd terraformfolder
+  234  clear
+  235  touch variable.tf
+  236  touch providers.tf
+  237  touch main.tf
+  238  touch output.tf
+  239  terr
+  240  clear
+  241  terraform init
+  242  ls
+  243  clear
+  244  git pull
+  245  ls
+  246  mkdir terraformfolder
+  247  cd terraformfolder
+  248  touch variable.tf
+  249  touch output.tf
+  250  touch main.tf
+  251  touch providers.tf
+  252  clear
+  253  cd ..
+  254  mkdir Assessmt_todo_django
+  255  cd Assessmt_todo_django
+  256  mkdir trfm_folder
+  257  cd trfm_folder
+  258  touch main.tf
+  259  touch output.tf
+  260  touch providers.tf
+  261  touch variables.tf
+  262  cd ..
+  263  echo '\n# Database settings\nUSE_POSTGRESQL=False\nDB_NAME=todolist\nDB_USER=postgres\nDB_PASSWORD=WSs9yTSHghMi6Sp\nDB_HOST=db1.chzveui56egk.us-east-1.rds.amazonaws.com\nDB_PORT=5432' > .env
+  264  mkdir ansible_Assmt
+  265  cd ansible_Assmt
+  266  clear
+  267  touch inventory.ini
+  268  code inventory.ini
+  269  cd ..
+  270  `git clone https://github.com/codeplatoon-devops/to-do-list-django.git`
+  271  ls
+  272  cd to-do-list-django
+  273  ls
+  274  python -m venv `assmt2_env`
+  275  echo '\n# Database settings\nUSE_POSTGRESQL=False\nDB_NAME=todolist\nDB_USER=postgres\nDB_PASSWORD=WSs9yTSHghMi6Sp\nDB_HOST=db1.chzveui56egk.us-east-1.rds.amazonaws.com\nDB_PORT=5432' > .env
+  276  python -m venv `name_of_env`
+  277  python3 -m venv `assmt2_env`
+  278  python3 -m venv `assmt2_env` ENV_DIR
+  279  clear
+  280  ls
+  281  mkdir terrfm_folder
+  282  cd terrfm_folder
+  283  touch output.tf
+  284  touch main.tf
+  285  touch variables.tf
+  286  touch providers.tf
+  287  clear
+  288  terraform init
+  289  clear
+  290  terraform plan
+  291  terraform apply -auto-approve
+  292  clear
+  293  cd ..
+  294  ls
+  295  mkdir ansible_assmt2
+  296  cd ansible_assmt2
+  297  touch inventory.ini
+  298  code inventory.ini
+  299  cd ..
+  300  cd terrfm_folder
+  301  terraform apply -auto-approve
+  302  cd ..
+  303  cd ansible_assmt2
+  304  cd .ssh
+  305  ssh -i "ola-keypair.pem" ubuntu@ec2-18-217-48-255.us-east-2.compute.amazonaws.com
+  306  clear
+  307  cd .ssh
+  308  cat ola-keypair.pem
+  309  ssh -i "ola-keypair.pem" ubuntu@ec2-18-219-191-108.us-east-2.compute.amazonaws.com
+  310  clear
+  311  ssh -i "ola-keypair.pem" ubuntu@ec2-3-138-142-200.us-east-2.compute.amazonaws.com
+  312  cd 
+  313  cd .ssh
+  314  cat ola-keypair.pem
+  315  ssh -i "ola-keypair.pem" ubuntu@ec2-18-219-191-108.us-east-2.compute.amazonaws.com
+  316  cd
+  317  clear
+  318  ls
+  319  cd devops-repo
+  320  cd alpha_platoon
+  321  ls
+  322  cd Assessment2
+  323  clear
+  324  git add .
+  325  git commit -m "updated code"
+  326  git push
+  327  git status
+  328  git add .
+  329  git commit -a "updated code"
+  330  git commit -m "updated code"
+  331  git add Assessmt_todo_django/to-do-list-django
+  332  git commit -m "updated code"
+  333  git add Assessmt_todo_django/to-do-list-django
+  334  git commit
+  335  git commit -a
+  336  git push
+  337  clear
+  338  ls
+  339  cd Assessmt_todo_django
+  340  ls
+  341  cd to-do-list-django
+  342  ls
+  343  git add .
+  344  git commit -m "added folder and path"
+  345  clear
+  346  git push
+  347  ls
+  348  cd terrfm_folder
+  349  cd ..
+  350  pwd
+  351  cp ansible_assmt2 /Users/mac/devops-repo/alpha_platoon/Assessment2/Assessmt_todo_django/
+  352  cp /Users/mac/devops-repo/alpha_platoon/Assessment2/Assessmt_todo_django/to-do-list-django/ansible_assmt2/ /Users/mac/devops-repo/alpha_platoon/Assessment2/Assessmt_todo_django/
+  353  clear
+  354  git add .
+  355  git commit -m "added folder and path"
+  356  git push
+  357  cd ..
+  358  git add .
+  359  git commit -m "added folder and path"
+  360  git push
+  361  cd ..
+  362  git add .
+  363  git commit -m "added folder and path"
+  364  git push
+  365  clear
+  366  ls
+  367  cd Assessmt_todo_django
+  368  ls
+  369  cd to-do-list-django
+  370  clear
+  371  ls
+  372  cd terrfm_folder
+  373  clear
+  374  ls
+  375  cat main.tf
+  376  clear
+  377  ls
+  378  cat variables.tf
+  379  cat providers.tf
+  380  clear
+  381  cd ..
+  382  ls
+  383  cd ansible_assmt2
+  384  ls
+  385  cd
+  386  brewARM install gh
+  387  mkdir gittest
+  388  cd gittest
+  389  gh auth login
+  390  gh repo create gitrepo --public
+  391  gh repo clone 
+  392  gh repo clone asanni2022/gitrepo
+  393  cd gitrepo
+  394  touch test.txt
+  395  git add .
+  396  git commit -m "updated"
+  397  git push
+  398  clear
+  399  hostory
+  400  ls
+  401  touch name.txt
+  402  touch devops.txt
+  403  git add .
+  404  git commit -m "updated files"
+  405  git push
+  406  cd ..
+  407  ls
+  408  cd devops-repo
+  409  ls
+  410  cd
+  411  cd devops-repo
+  412  cd alpha_platoon
+  413  ls
+  414  cd
+  415  clear
+  416  ls
+  417  cd DevOps_Training
+  418  ls
+  419  cd
+  420  cd devops-repo
+  421  cd alpha_platoon
+  422  git clone https://github.com/codeplatoon-devops/git-playground
+  423  ls
+  424  cd git-playground
+  425  clear
+  426  ls
+  427  touch akimtest.md
+  428  nano akimtest.md
+  429  git pull
+  430  git add .
+  431  git commit -m "added md file"
+  432  git push
+  433  ls
+  434  cat akimtest.md
+  435  nano gitsetupcode.txt
+  436  cat gitsetupcode.txt
+  437  clear
+  438  git add .
+  439  git commit -m "added md file"
+  440  git push
+  441  ls
+  442  git status
+  443  git push
+  444  git pull
+  445  clear
+  446  ls
+  447  git switch master
+  448  git switch main
+  449  git pull
+  450  git branch -a
+  451  git merge main
+  452  git pull
+  453  cd
+  454  ls
+  455  gh repo clone asanni2022/workflows
+  456  cd workflows
+  457  clear
+  458  cd
+  459  history
+  460  nano message.txt
+  461  pwd
+  462  echo message.txt
+  463  clear
+  464  echo "today is gonna be a beautiful Day! "
+  465  cd .ssh
+  466  ssh -i "ola-keypair.pem" ubuntu@ec2-18-217-48-255.us-east-2.compute.amazonaws.com
+  467  clear
+  468  touch gitactionjobs.yml
+  469  code gitactionjobs.yml
+  470  git add .
+  471  pwd
+  472  git add /Users/mac/workflows
+  473  git commit -m "Added git action yml workflows"
+  474  git push origin main
+  475  cat gitactionjobs.yml
+  476  cd
+  477  git clone git@github.com:asanni2022/classworkek6.git
+  478  cd classworkek6
+  479  echo print("Hello from github actions commit1") > main.py
+  480  echo "print("Hello from github actions commit1")" > main.py
+  481  ls
+  482  git add main.py
+  483  git commit -m "added python file"
+  484  git push origin main
+  485  git add .github/workflows/main.yml
+  486  git pull origin main
+  487  git add .github/workflows/main.yml
+  488  git commit -m "Add GitHub Actions workflow for Python code"
+  489  git push origin main
+  490  git push
+  491  git add .
+  492  git commit -m "added"
+  493  git push
+  494  git fetch origin
+  495  code requirements.txt
+  496  git add .
+  497  git commit -m "requirements added"
+  498  git push origin main 
+  499  git push
+  500  git pull origin main
+  501  git config pull.rebase false
+  502  git pull origin main
+  503  git pull
+  504  ls
+  505  git add .
+  506  git commit -m "requirements added"
+  507  git push 
+  508  git push origin main
+  509  clear
+  510  ls
+  511  git add .github/workflows/main.yml
+  512  git commit -m "requirements added"
+  513  git push origin main
+  514  git fetch
+  515  git push
+  516  git config pull.rebase false
+  517  git pull origin main
+  518  clear
+  519  ls
+  520  git push origin main
+  521  nano main.py
+  522  git add .
+  523  git commit -m "requirements added py"
+  524  git push origin main
+  525  nano main.py
+  526  git add .
+  527  git commit -m "requirements added py"
+  528  git push origin main
+  529  nano requirements.txt
+  530  git checkout -b actions-workflows
+  531  git add .
+  532  git commit -m "requirements added py"
+  533  less main.py
+  534  nano main.py
+  535  git add .
+  536  git commit -m "requirements added py"
+  537  git push origin main
+  538  git push
+  539  git push actions-workflows
+  540  less main.py
+  541  cat requirements.txt
+  542  git add .
+  543  git commit -m "requirements added py"
+  544  git push origin actions-workflows
+  545  nano requirements.txt
+  546  git add .
+  547  git commit -m "requirements added py"
+  548  git push origin actions-workflows
+  549  clear
+  550  cd
+  551  cd .ssh
+  552  ssh -i "ola-keypair.pem" ubuntu@ec2-18-217-48-255.us-east-2.compute.amazonaws.com
+  553  clear
+  554  ssh -i "ola-keypair.pem" ubuntu@ec2-3-21-27-108.us-east-2.compute.amazonaws.com
+  555  clear
+  556  cd .ssh
+  557  ssh -i "ola-keypair.pem" ubuntu@ec2-3-21-27-108.us-east-2.compute.amazonaws.com
+  558  clear
+  559  ssh -i "ola-keypair.pem" ubuntu@ec2-3-21-27-108.us-east-2.compute.amazonaws.com
+  560  clear
+  561  cd .ssh
+  562  ssh -i "ola-keypair.pem" ubuntu@ec2-3-21-27-108.us-east-2.compute.amazonaws.com
+  563  clear
+  564  ssh -i "ola-keypair.pem" ubuntu@ec2-13-58-41-214.us-east-2.compute.amazonaws.com
+  565  clear
+  566  ssh -i "ola-keypair.pem" ubuntu@ec2-18-189-141-179.us-east-2.compute.amazonaws.com
+  567  cd .ssh
+  568  ssh -i "ola-keypair.pem" ubuntu@ec2-18-189-141-179.us-east-2.compute.amazonaws.com
+  569  ssh -i “cp-devops-class.pem” ubuntu@ec2-3-214-138-22.compute-1.amazonaws.com
+  570  ssh -i “cp-devops-class.pem” ubuntu@ec2-44-193-33-148.compute-1.amazonaws.com
+  571  nano chadkey.pem
+  572  ssh -i “cp-devops-class.pem” ubuntu@ec2-44-193-33-148.compute-1.amazonaws.com
+  573  ssh -i “chad-hey.pem” ubuntu@ec2-44-193-33-148.compute-1.amazonaws.com
+  574  ls
+  575  ssh -i “chadkey.pem” ubuntu@ec2-44-193-33-148.compute-1.amazonaws.com
+  576  nano chadkey.pem
+  577  ssh -i “chadkey.pem” ubuntu@ec2-44-193-33-148.compute-1.amazonaws.com
+  578  chmod 400 chadkey.pem
+  579  ssh -i “chadkey.pem” ubuntu@ec2-44-193-33-148.compute-1.amazonaws.com
+  580  ssh -i chadkey.pem ubuntu@ec2-44-193-33-148.compute-1.amazonaws.com
+  581  cd .ssh
+  582  ssh -i "ola-keypair.pem" ubuntu@ec2-3-135-63-166.us-east-2.compute.amazonaws.com
+  583  cd .ssh
+  584  ssh -i "ola-keypair.pem" ubuntu@ec2-18-219-56-42.us-east-2.compute.amazonaws.com
+  585  clear
+  586  ssh -i "ola-keypair.pem" ubuntu@ec2-18-219-56-42.us-east-2.compute.amazonaws.com
+  587  ssh -i "ola-keypair.pem" ubuntu@ec2-3-138-171-0.us-east-2.compute.amazonaws.com
+  588  clear
+  589  ssh -i "ola-keypair.pem" ubuntu@ec2-3-138-171-0.us-east-2.compute.amazonaws.com
+  590  sudo hdiutil attach Docker.dmg
+  591  docker version
+  592  clear
+  593  ls
+  594  cd devops-repo
+  595  ls
+  596  cd alpha_platoon
+  597  ls
+  598  git clone git@github.com:asanni2022/dockertest.git
+  599  cd dockertest
+  600  ls
+  601  mkdir my_docker
+  602  cd my_docker
+  603  git add .
+  604  git commit -m 'added directory'
+  605  git push 
+  606  git status
+  607  clear
+  608  ls
+  609  cd ..
+  610  ls
+  611  git status
+  612  cd my_docker
+  613  code .
+  614  docker build -t my_docker .
+  615  docker images
+  616  docker run my_docker
+  617  docker run ubuntu
+  618  clear
+  619  docker run -it ubuntu
+  620  cd .ssh
+  621  clear
+  622  ssh -i "ola-keypair.pem" ec2-user@ec2-18-190-28-18.us-east-2.compute.amazonaws.com
+  623  docker run -it ubuntu
+  624  cd .ssh
+  625  clear
+  626  ssh -i "ola-keypair.pem" root@ec2-3-138-171-0.us-east-2.compute.amazonaws.com
+  627  ssh -i "ola-keypair.pem" ubuntu@ec2-3-138-171-0.us-east-2.compute.amazonaws.com
+  628  git clone https://github.com/chandradeoarya/todolist-flask
+  629  cd todolist-flask
+  630  pwd
+  631  code .
+  632  ssh -i "ola-keypair.pem" ubuntu@ec2-3-138-171-0.us-east-2.compute.amazonaws.com
+  633  cd .ssh
+  634  ssh -i "ola-keypair.pem" ubuntu@ec2-3-138-171-0.us-east-2.compute.amazonaws.com
+  635  cd
+  636  docker
+  637  docker run -it ubuntu
+  638  docker run -it --name my_ubuntu ubuntu
+  639  docker run attach --name my_ubuntus ubuntu
+  640  clear
+  641  docker version
+  642  sudo docker run docker/whalesay cowsay Hello-World!
+  643  clear
+  644  docker run --name mynginx1 -p 8080:8080 -d nginx
+  645  docker ps
+  646  docker run -it ubuntu
+  647  docker run -it nginx
+  648  docker run -it ubuntu
+  649  sudo docker run -d --name nginx-base -p 80:80 nginx:latest
+  650  git clone https://github.com/chandradeoarya/2048
+  651  ls
+  652  cd 2048
+  653  ls
+  654  cd
+  655  mkdir nginx_game
+  656  cd nginx_game
+  657  git clone https://github.com/chandradeoarya/2048
+  658  code .
+  659  docker build -t nginx_game .\n
+  660  docker run -d -p 8080:80 --name ng_container nginx_game
+  661  docker run --name ng_container -p 8080:80 -d nginx_game
+  662  docker version
+  663  docker ps
+  664  docker exec mynginx1 $0
+  665  docker exec -it mynginx1 $0
+  666  docker exec -it mynginx1 bash
+  667  pwd
+  668  ls
+  669  cd 2048
+  670  pwd
+  671  cd ..
+  672  docker build -t nginx_game .\n
+  673  clear
+  674  docker ps
+  675  docker exec -it mynginx1 bash
+  676  docker build -t nginx_game .\n
+  677  docker restart
+  678  docker restart --help
+  679  clear
+  680  docker restart mynginx1
+  681  docker run --name mynginx2 -p 80:80 -d nginx
+  682  docker stop $(docker -aq)
+  683  docker stop $(docker -a -q)
+  684  docker stop $(docker ps -aq)
+  685  docker rm $(docker ps -aq)
+  686  docker run --name mynginx2 -p 80:80 -d nginx
+  687  docker exec -it mynginx2 bash
+  688  docker exec -it mynginx2 $0
+  689  docker exec -it mynginx2 /bin/bash
+  690  docker ps
+  691  clear
+  692  ssh -i "ola-keypair.pem" ubuntu@ec2-3-15-139-171.us-east-2.compute.amazonaws.com
+  693  clear
+  694  cd ..
+  695  cd
+  696  ls
+  697  cd nginx_game
+  698  ls
+  699  sudo rm -rf 2048
+  700  ls
+  701  clear
+  702  ls
+  703  git clone https://github.com/chandradeoarya/2048
+  704  ls
+  705  pwd
+  706  cd 2048
+  707  cp -r ./* /Users/mac/nginx_game
+  708  cd ..
+  709  ls
+  710  cd style
+  711  ls
+  712  cd ..
+  713  docker build -t nginx_game .
+  714  docker run -it -d --name mygamedocker -p 8080:80 nginx_game
+  715  docker ps
+  716  docker ps -a
+  717  clear
+  718  ssh -i "ola-keypair.pem" ubuntu@ec2-3-15-139-171.us-east-2.compute.amazonaws.com
+  719  docker compose --version
+  720  docker-compose --version
+  721  clear
+  722  docker stop $(docker ps -aq)
+  723  docker rm $(docker ps -aq)
+  724  docker rmi $(docker image ls -q)
+  725  dokcer image ls -q
+  726  docker rmi $(docker images ls -q)
+  727  dokcer images ls -q
+  728  docker images
+  729  clear
+  730  docker image ls
+  731  cd 
+  732  code .
+  733  docker-compose build
+  734  mkdir frontend
+  735  mkdir backend
+  736  docker-compose build
+  737  mkdir vidly
+  738  cd vidly
+  739  mkdir frontend
+  740  mkdir backend
+  741  mkdir db
+  742  docker-compose build
+  743  cd frontend
+  744  code .
+  745  cd ..
+  746  cd backend
+  747  code .
+  748  cd ..
+  749  docker-compose build
+  750  clear
+  751  code .
+  752  docker-compose build
+  753  code .
+  754  cd frontend
+  755  code .
+  756  cd ..
+  757  cd backend
+  758  code .
+  759  cd ..
+  760  docker-compose build
+  761  clear
+  762  cd backend
+  763  code .
+  764  cd ..
+  765  cd frontend
+  766  code .
+  767  cd ..
+  768  docker-compose build
+  769  docker images
+  770  docker-compose up
+  771  docker-compose up -d
+  772  docker ps
+  773  docker-compose up -d
+  774  docker start vidly-api-1 
+  775  docker start vidly-web-1 
+  776  docker ps
+  777  docker-compose up -d --build
+  778  docker ps -a
+  779  clear
+  780  cd frontend
+  781  code .
+  782  cd ..
+  783  code .
+  784  cd backend
+  785  code .
+  786  cd ..
+  787  code .
+  788  cd
+  789  ls
+  790  clear
+  791  ssh -i "ola-keypair.pem" ubuntu@ec2-3-15-139-171.us-east-2.compute.amazonaws.com
+  792  cd .ssh
+  793  clear
+  794  ssh -i "ola-keypair.pem" ubuntu@ec2-3-15-139-171.us-east-2.compute.amazonaws.com
+  795  cd 
+  796  ls
+  797  cd todolist-flask
+  798  pwd
+  799  code .
+  800  pwd
+  801  code .
+  802  cd .ssh
+  803  ssh -i "ola-keypair.pem" ubuntu@ec2-3-15-139-171.us-east-2.compute.amazonaws.com
+  804  clear
+  805  ssh -i "ola-keypair.pem" ubuntu@ec2-3-15-139-171.us-east-2.compute.amazonaws.com
+  806  cd .ssh
+  807  cat ola-keypair.pem
+  808  ls
+  809  cd devops-repo
+  810  ls
+  811  cd alpha_platoon
+  812  ls
+  813  cd git-playground
+  814  ls
+  815  cat akimtest.md
+  816  code .
+  817  mkdir flask
+  818  cd flask
+  819  git clone https://github.com/chandradeoarya/todolist-flask
+  820  cd todolist-flask
+  821  clear
+  822  docker run -itd --name todo_container -e MYSQL_USER=myuser -e MYSQL_PASSWORD=Postgres123 -e MYSQL_DATABASE=todo_db -e MYSQL_ROOT_PASSWORD=Alpha123 -p 3306:3306 mysql
+  823  clear
+  824  sudo nano todo.py
+  825  python3 -m venv venv
+  826  source venv/bin/activate
+  827  pip install -r requirements.txt 
+  828  python3 todo.py
+  829  deactivate
+  830  code .
+  831  clear
+  832  code .
+  833  clear
+  834  ssh -i "ola-keypair.pem" root@ec2-3-15-139-171.us-east-2.compute.amazonaws.com
+  835  ssh -i "ola-keypair.pem" ubuntu@ec2-3-15-139-171.us-east-2.compute.amazonaws.com
+  836  clear
+  837  ssh -i "ola-keypair.pem" ubuntu@ec2-3-15-139-171.us-east-2.compute.amazonaws.com
+  838  code .
+  839  clear
+  840  code .
+  841  cd
+  842  git clone https://github.com/chandradeoarya/todolist-flask
+  843  cd todolist-flask
+  844  ls
+  845  code .
+  846  pwd 
+  847  cd todolist-flask
+  848  code .
+  849  code-insiderr .
+  850  cd
+  851  clear
+  852  xcode-select --install
+  853  code .
+  854  clear
+  855  ls
+  856  cd todolist-flask
+  857  code .
+  858  cd
+  859  clear
+  860  history
+  861  ssh -i "ola-keypair.pem" ubuntu@ec2-3-15-139-171.us-east-2.compute.amazonaws.com
+  862  cd
+  863  clear
+  864  cd .ssh
+  865  ssh -i "ola-keypair.pem" ubuntu@ec2-13-58-14-213.us-east-2.compute.amazonaws.com
+  866  clear
+  867  ssh -i "ola-keypair.pem" ubuntu@ec2-13-58-14-213.us-east-2.compute.amazonaws.com
+  868  clear
+  869  ssh -i "ola-keypair.pem" ubuntu@ec2-13-58-14-213.us-east-2.compute.amazonaws.com
+  870  code .
+  871  cd
+  872  npx create-react-app sample-react-app
+  873  sudo chown -R 501:20 "/Users/mac/.npm"
+  874  npx create-react-app sample-react-app --loglevel=verbose
+  875  clear
+  876  ssh -i "ola-keypair.pem" ubuntu@ec2-13-58-14-213.us-east-2.compute.amazonaws.com
+  877  cd
+  878  clear
+  879  history
+  880  ls
+  881  cd sample-react-app
+  882  clear
+  883  ls
+  884  nano Dockerfile
+  885  cd .ssh
+  886  ssh -i "ola-keypair.pem" ubuntu@ec2-18-220-110-38.us-east-2.compute.amazonaws.com
+  887  history
+  888  clear
+  889  ssh -i "ola-keypair.pem" ubuntu@ec2-3-12-71-40.us-east-2.compute.amazonaws.com
+  890  ssh -i "ola-keypair.pem" ubuntu@ec2-13-58-14-213.us-east-2.compute.amazonaws.com
+  891  clear
+  892  ssh -i "ola-keypair.pem" ubuntu@ec2-3-12-71-40.us-east-2.compute.amazonaws.com
+  893  clear
+  894  ssh -i "ola-keypair.pem" ubuntu@ec2-3-145-155-77.us-east-2.compute.amazonaws.com
+  895  eb --version
+  896  elb --version
+  897  brew4 install awscli
+  898  elb --version
+  899  pip install awsebcli 
+  900  cd
+  901  pip install awsebcli 
+  902  eb --version
+  903  pip install awsebcli
+  904  eb --version
+  905  brew update
+  906  brew install awsebcli
+  907  brewARM install awsebcli
+  908  eb --version
+  909  pip3 install awsebcli
+  910  eb --version
+  911  clear
+  912  ls -a ~
+  913  sudo nano .zshrc
+  914  pip3 install --user awsebcli
+  915  eb --version
+  916  brewARM update
+  917  clear
+  918  eb --version
+  919  eb init
+  920  clear
+  921  echo $SHELL
+  922  cd /bin/zsh
+  923  which python
+  924  brewARM install python
+  925  brewARM reinstall python@3.11
+  926  which python
+  927  python3
+  928  which python3
+  929  clear
+  930  which pip
+  931  pip --version
+  932  pip install --upgrade --user awsebcli
+  933  clear
+  934  which eb
+  935  echo $PATH
+  936  pip3 uninstall awsebcli
+  937  pip3 install awscli 
+  938  pip3 uninstall awsebcli
+  939  pip3 install awsebcli
+  940  pip3 install awsebcli --user
+  941  clear
+  942  source ~/.bash_profile
+  943  ls -la 
+  944  source ~/.zprofile
+  945  nano ~/.zprofile
+  946  nano ~/.zshrc
+  947  source ~/.zshrc
+  948  clear
+  949  which eb
+  950  eb --version
+  951  nano ~/.bash_profile
+  952  nano ~/.zshrc
+  953  which python3
+  954  nano ~/.zshrc
+  955  source ~/.zshrc
+  956  eb --version
+  957  cd /usr/local
+  958  ls
+  959  cd bin
+  960  ls
+  961  cd python3
+  962  cat python3
+  963  cd
+  964  clear
+  965  brewARM upgrade awsebcli --user
+  966  brewARM upgrade awsebcli
+  967  which eb
+  968  brewARM link --overwrite aws-elasticbeanstalk
+  969  brewARM unlink aws-elasticbeanstalk && brewARM link aws-elasticbeanstalk
+  970  eb --version
+  971  clear
+  972  which python3
+  973  python3 --version
+  974  nano ~/.zshrc
+  975  source ~/.zshrc
+  976  eb --version
+  977  clear
+  978  nano ~/.zshrc
+  979  source ~/.zshrc
+  980  nano ~/.zshrc
+  981  vi ~/.zshrc
+  982  cat ~/.zshrc
+  983  source ~/.zshrc
+  984  nano ~/.zshrc
+  985  nano .zshrc
+  986  clear
+  987  cat ~/.zshrc
+  988  sudo cat .zshrc 
+  989  brewARM install zsh
+  990  clear
+  991  brewARM update
+  992  sudo vi /etc/shells
+  993  echo $SHELL
+  994  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+  995  cd /Users/mac
+  996  ls
+  997  /usr/bin/nano ~/.zshrc
+  998  /usr/bin/nano ~/.zshrc
+  999  /usr/bin/source ~/.zshrc
+ 1000  /usr/bin/nano ~/.zshrc
+ 1001  source ~/.zshrc
+ 1002  clear
+ 1003  nano ~/.zshrc
+ 1004  source ~/.zshrc
+ 1005  which eb
+ 1006  eb --version
+ 1007  clear
+ 1008  brewARM update
+ 1009  brewARM install awsebcli
+ 1010  eb --version
+ 1011  pip3 install awsebcli --upgrade --user
+ 1012  clear
+ 1013  ls -a ~
+ 1014  python3 --version
+ 1015  sudo nano /etc/paths
+ 1016  which python3
+ 1017  sudo nano /etc/paths
+ 1018  clear
+ 1019  python3 --version 
+ 1020  eb --version
+ 1021  nano ~/.zshrc
+ 1022  source ~/.zshrc
+ 1023  eb --version
+ 1024  pip3 install awsebcli --upgrade --user
+ 1025  clear
+ 1026  eb --version
+ 1027  echo $SHELL
+ 1028  ls -a ~
+ 1029  cat .zprofile
+ 1030  nano .zshrc
+ 1031  source ~/.zshrc
+ 1032  eb --version
+ 1033  clear
+ 1034  eb --version
+ 1035  history
+ 1036  brewARM info awsebcli
+ 1037  brewARM install awsebcli
+ 1038  eb
+ 1039  cd /opt
+ 1040  ls
+ 1041  cd homebrew
+ 1042  ls
+ 1043  ls bin
+ 1044  ./bin/eb
+ 1045  eb init
+ 1046  brewARM update
+ 1047  which brewARM
+ 1048  which brew
+ 1049  brew update
+ 1050  brewARM doctor
+ 1051  echo $PATH
+ 1052  cat .zshrc
+ 1053  echo 'export PATH="/opt/homebrew/bin:$PATH"' >> ~/.zshrc
+ 1054  nano ~/.zshrc
+ 1055  eb
+ 1056  eb --version
+ 1057  clear
+ 1058  brewARM doctor
+ 1059  brew untap homebrew/core
+ 1060  brew untap homebrew/cask
+ 1061  sudo rm /usr/local/lib/libgettextlib.dylib
+ 1062  sudo rm /usr/local/lib/libintl.dylib
+ 1063  sudo rm /usr/local/include/libintl.h
+ 1064  brewARM doctor
+ 1065  eb
+ 1066  eb --version
+ 1067  clear
+ 1068  eb --version
+ 1069  clear
+ 1070  mkdir snakegame
+ 1071  cd snakegame
+ 1072  git clone https://github.com/chandradeoarya/tomcat-jsp-snakegame
+ 1073  cd tomcat-jsp-snakegame
+ 1074  clear
+ 1075  git init
+ 1076  cd ..
+ 1077  ls
+ 1078  cd tomcat-jsp-snakegame
+ 1079  clear
+ 1080  eb init
+ 1081  eb create eb_snake --single
+ 1082  eb create ebsnake --single
+ 1083  cd
+ 1084  mkdir eb2048
+ 1085  cd eb2048
+ 1086  git clone https://github.com/chandradeoarya/2048
+ 1087  cd 2048
+ 1088  clear
+ 1089  nano Dockerfile
+ 1090  eb init
+ 1091  git init
+ 1092  git add .
+ 1093  git commit -m "first code"
+ 1094  eb create eb2048-dev --single
+ 1095  eb create eb2048-prod
+ 1096  clear
+ 1097  ssh -i "ola-keypair.pem" ubuntu@ec2-3-12-71-40.us-east-2.compute.amazonaws.com
+ 1098  mkdir tawanz
+ 1099  git clone https://github.com/chandradeoarya/tawazun-sda-hackathon
+ 1100  cd tawanz
+ 1101  git clone https://github.com/chandradeoarya/tawazun-sda-hackathon
+ 1102  cd tawazun-sda-hackathon
+ 1103  clear
+ 1104  nano Dockerfile
+ 1105  nano docker-compose.yml
+ 1106  docker-compose up --build
+ 1107  docker-compose --version
+ 1108  nano docker-compose.yml
+ 1109  docker-compose up --build
+ 1110  nano docker-compose.yml
+ 1111  docker-compose up --build
+ 1112  nano docker-compose.yml
+ 1113  docker-compose up --build
+ 1114  nano docker-compose.yml
+ 1115  docker-compose up --build
+ 1116  nano docker-compose.yml
+ 1117  clear
+ 1118  docker-compose up --build
+ 1119  nano docker-compose.yml
+ 1120  clear
+ 1121  docker-compose up --build
+ 1122  nano docker-compose.yml
+ 1123  cd
+ 1124  ls
+ 1125  mkdir eb-flask
+ 1126  cd eb-flask
+ 1127  clear
+ 1128  nano application.py
+ 1129  nano requirements.txt
+ 1130  nano application.py
+ 1131  python3 -m venv venv
+ 1132  source venv/bin/activate
+ 1133  pip3 install -r requirements.txt
+ 1134  python3 application.py
+ 1135  nano application.py
+ 1136  python3 application.py
+ 1137  deactivate
+ 1138  rm -rf venv
+ 1139  clear
+ 1140  eb init
+ 1141  clear
+ 1142  cat .elasticbeanstalk/config.yml
+ 1143  eb create simple-flask-dev-env --single
+ 1144  clear
+ 1145  cd
+ 1146  mkdir eb-node
+ 1147  cd eb-node
+ 1148  git clone https://github.com/chandradeoarya/eb-node-hw
+ 1149  vd eb-node-hw
+ 1150  eb init
+ 1151  eb create eb-node-hello-dev --single
+ 1152  clear
+ 1153  eb init
+ 1154  eb destroy
+ 1155  eb --help
+ 1156  eb terminate
+ 1157  clear
+ 1158  cd ..
+ 1159  cd eb-node
+ 1160  ls
+ 1161  cd eb-node-hw
+ 1162  ls
+ 1163  eb init
+ 1164  eb create eb-nodejs-hello-dev --single
+ 1165  cd
+ 1166  clear
+ 1167  ls
+ 1168  cd Desktop
+ 1169  ls
+ 1170  cd todolist-fullstack
+ 1171  clear
+ 1172  ls
+ 1173  cd todolist-flask
+ 1174  docker compose -f docker-compose-html.yml up --build
+ 1175  cd /var/run
+ 1176  ls -lrth docker.sock
+ 1177  sudo chmod 666 /var/run/docker.sock
+ 1178  ls -lrth docker.sock
+ 1179  systemctl start docker
+ 1180  sudo systemctl start docker
+ 1181  sudo dockerd
+ 1182  sudo service docker start
+ 1183  cd
+ 1184  sudo service docker start
+ 1185  sudo su
+ 1186  sudo systemctl status docker
+ 1187  sudo launchctl status docker
+ 1188  sudo launchctl start docker
+ 1189  ls -l /var/run/docker.sock
+ 1190  sudo chown root:docker /var/run/docker.sock
+ 1191  clear
+ 1192  sudo groupadd docker
+ 1193  sudo addgroup docker
+ 1194  sudo usermod -aG docker ${USER}
+ 1195  ls
+ 1196  cd Desktop
+ 1197  cd todolist-fullstack
+ 1198  ls
+ 1199  cd todolist-flask
+ 1200  docker compose -f docker-compose-html.yml up --build
+ 1201  cd
+ 1202  sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+ 1203  sudo chmod +x /usr/local/bin/docker-compose
+ 1204  docker-compose --version
+ 1205  /usr/local/bin/
+ 1206  ls
+ 1207  sudo chmod +x /usr/local/bin/docker-compose
+ 1208  docker-compose --version
+ 1209  clear
+ 1210  docker --version
+ 1211  docker-compose config
+ 1212  sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+ 1213  docker-compose config
+ 1214  docker-compose --version
+ 1215  cd
+ 1216  mkdir eb-2048
+ 1217  cd eb-2048
+ 1218  git clone git@github.com:asanni2022/2048.git
+ 1219  cd 2048
+ 1220  code .
+ 1221  mkdir .github
+ 1222  cd .github
+ 1223  mkdir workflows
+ 1224  cd workflows
+ 1225  touch docker-build-push.yml
+ 1226  git add .
+ 1227  git commit -m "adding code"
+ 1228  git push origin master
+ 1229  git status
+ 1230  clear
+ 1231  git status
+ 1232  git add .
+ 1233  git commit -m "added Dockerfile"
+ 1234  git push origin master
+ 1235  cd ..
+ 1236  mv ./.github/workflows/Dockerfile .
+ 1237  ls
+ 1238  git add .
+ 1239  git commit -m "added Dockerfile into directory"
+ 1240  git push origin master
+ 1241  clear
+ 1242  cd
+ 1243  mkdir flaskhw
+ 1244  cd flaskhw
+ 1245  git clone git@github.com:asanni2022/flask-hw.git
+ 1246  cd flask-hw
+ 1247  ls
+ 1248  clear
+ 1249  code .
+ 1250  mkdir .github
+ 1251  cd .github
+ 1252  mkdir workflows
+ 1253  cd workflows
+ 1254  touch docker-build-push.yml
+ 1255  git add .
+ 1256  git commit -m "added Dockerfile and docker yml"
+ 1257  git push origin master
+ 1258  pwd
+ 1259  git branch
+ 1260  ls
+ 1261  cat docker-build-push.yml
+ 1262  clear
+ 1263  pwd
+ 1264  ls
+ 1265  git status
+ 1266  git add .
+ 1267  git commit -m "added Dockerfile and docker yml"
+ 1268  git push origin master
+ 1269  cd ../..
+ 1270  ls
+ 1271  git status
+ 1272  git add .
+ 1273  git commit -m "added Dockerfile and docker yml"
+ 1274  git push origin master
+ 1275  clear
+ 1276  cd
+ 1277  ls
+ 1278  cd Desktop
+ 1279  ls
+ 1280  cd todolist-fullstack
+ 1281  clear
+ 1282  ls
+ 1283  cd todolist-flask
+ 1284  ls
+ 1285  docker compose -f docker-compose-html.yml up --build
+ 1286  docker
+ 1287  clear
+ 1288  sudo launchctl status docker
+ 1289  sudo launchctl runstats docker
+ 1290  sudo launchctl runstats system/com.docker.socket
+ 1291  sudo launchctl enable system/com.docker.socket
+ 1292  sudo launchctl enable docker
+ 1293  sudo launchctl runstats system/com.docker.socket
+ 1294  pstree
+ 1295  ps
+ 1296  sudo launchctl list
+ 1297  sudo launchctl list | grep docker
+ 1298  cd
+ 1299  cd -
+ 1300  docker compose -f docker-compose-html.yml up --build
+ 1301  cd
+ 1302  clear
+ 1303  ls
+ 1304  mkdir eb-dojojump
+ 1305  cd eb-dojojump
+ 1306  git clone git@github.com:asanni2022/dojo-jump.git
+ 1307  cd dojo-jump
+ 1308  clear
+ 1309  ls
+ 1310  ssh -i "ola-keypair.pem" ubuntu@ec2-13-58-14-213.us-east-2.compute.amazonaws.com
+ 1311  clear
+ 1312  ssh -i "ola-keypair.pem" ubuntu@ec2-3-15-139-171.us-east-2.compute.amazonaws.com
+ 1313  cd .ssh
+ 1314  clear
+ 1315  ssh -i "ola-keypair.pem" ubuntu@ec2-3-12-71-40.us-east-2.compute.amazonaws.com
+ 1316  cd
+ 1317  ls
+ 1318  cd .ssh
+ 1319  ssh -i "ola-keypair.pem" ubuntu@ec2-3-145-155-77.us-east-2.compute.amazonaws.com
+ 1320  cd
+ 1321  cd nginx_game
+ 1322  ls
+ 1323  cd
+ 1324  clear
+ 1325  cd .ssh
+ 1326  ssh -i "ola-keypair.pem" ubuntu@ec2-3-15-139-171.us-east-2.compute.amazonaws.com
+ 1327  ls
+ 1328  nano Dockerfile
+ 1329  ls
+ 1330  nano Dockerfile
+ 1331  mkdir .github
+ 1332  cd .github
+ 1333  mkdir workflows
+ 1334  cd workflows
+ 1335  touch docker-build-push.yml
+ 1336  code .
+ 1337  cd ../..
+ 1338  ls
+ 1339  cat Dockerfile
+ 1340  git add .
+ 1341  git commit -m "added docker file"
+ 1342  git push origin master
+ 1343  cd .github
+ 1344  cd workflows
+ 1345  clear
+ 1346  git add .
+ 1347  git commit -m "added docker file yml"
+ 1348  git push origin master
+ 1349  git status
+ 1350  cd
+ 1351  mkdir nodejs-hw
+ 1352  cd nodejs-hw
+ 1353  git clone git@github.com:asanni2022/nodejs-hw.git
+ 1354  cd nodejs-hw
+ 1355  clear
+ 1356  nano Dockerfile
+ 1357  cd eb-node
+ 1358  ls
+ 1359  cd eb-node-hw
+ 1360  ls
+ 1361  cd
+ 1362  cd .ssh
+ 1363  ssh -i "ola-keypair.pem" ubuntu@ec2-3-12-71-40.us-east-2.compute.amazonaws.com
+ 1364  ls
+ 1365  mkdir .github/workflows
+ 1366  ls
+ 1367  mkdir .github/workflows/
+ 1368  mkdir ./.github/workflows
+ 1369  mkdir /.github/workflows
+ 1370  ls
+ 1371  mkdir /.github/workflows/
+ 1372  mkdir .github
+ 1373  cd .github
+ 1374  mkdir workflows
+ 1375  cd workflows
+ 1376  clear
+ 1377  ls
+ 1378  touch docker-build-push.yml
+ 1379  code .
+ 1380  cd ../..
+ 1381  ls
+ 1382  nano Dockerfile
+ 1383  git status
+ 1384  git add .
+ 1385  git commit -m "added docker file yml and Dockerfile"
+ 1386  git branch
+ 1387  git push origin master
+ 1388  clear
+ 1389  ls
+ 1390  nano Dockerfile
+ 1391  code .
+ 1392  git add .
+ 1393  git commit -m "updated Dockerfile"
+ 1394  git push origin master
+ 1395  docker run -t asanni2022/nodejs-hw .
+ 1396  docker run -itd --name -p 9876:80 asanni2022/nodejs-hw  
+ 1397  docker images
+ 1398  docker build -t asanni2022/nodejs-hw .
+ 1399  docker run -itd --name nodejs-hw_c -p 9876:80 asanni2022/nodejs-hw  
+ 1400  docker ps
+ 1401  docker run -itd --name nodejs_hw_c -p 8282:80 asanni2022/nodejs  
+ 1402  docker pull asanni2022/nodejs
+ 1403  docker images
+ 1404  docker stop $(docker ps -aq)
+ 1405  docker rm $(docker ps -aq)
+ 1406  clear
+ 1407  docker run -itd --name nodejs-hw_c -p 8000:8000 asanni2022/nodejs-hw  
+ 1408  docker ps
+ 1409  docker images
+ 1410  docker push asanni2022/nodejs-hw 
+ 1411  docker pull asanni2022/nodejs 
+ 1412  docker pull asanni2022/nodejs
+ 1413  docker build -t "asanni2022/nodejs" .
+ 1414  docker images
+ 1415  cd
+ 1416  cat ~/.aws/credentials
+ 1417  clear
+ 1418  ls
+ 1419  cd eb-2048
+ 1420  eb init
+ 1421  eb create eb2048class --single
+ 1422  eb init
+ 1423  eb create eb2048class --single
+ 1424  git status
+ 1425  ls
+ 1426  cd 2048
+ 1427  git status
+ 1428  clear
+ 1429  git init
+ 1430  eb create eb2048class --single
+ 1431  eb create eb_2048class --single
+ 1432  git add .
+ 1433  git commit -m "update gitignore"
+ 1434  git push origin master
+ 1435  git branch
+ 1436  ls
+ 1437  cat Dockerfile
+ 1438  clear
+ 1439  git add .
+ 1440  git commit -m "updated yml file"
+ 1441  git push origin master
+ 1442  git add .
+ 1443  git commit -m "updated yml file"
+ 1444  git push origin master
+ 1445  eb init
+ 1446  eb create eb_2048class --single
+ 1447  git add .
+ 1448  git push origin master
+ 1449  git add .
+ 1450  git commit -m "updated yml file"
+ 1451  git push origin master
+ 1452  eb open
+ 1453  eb create eb-2048class --single
+ 1454  git add .
+ 1455  git commit -m "updated index html file"
+ 1456  git push origin master
+ 1457  clear
+ 1458  cd
+ 1459  mkdir eb-goldenwaste
+ 1460  cd eb-goldenwaste
+ 1461  git clone git@github.com:asanni2022/goldenwaste-sda-hackathon.git
+ 1462  cd goldenwaste-sda-hackathon
+ 1463  clear
+ 1464  ls
+ 1465  code .
+ 1466  git add .
+ 1467  git commit -m "added Dockerfile"
+ 1468  git push origin master
+ 1469  clear
+ 1470  eb init
+ 1471  history
+ 1472  eb create goldenwaste-beanstak-eb --single
+ 1473  mkdir .github
+ 1474  cd .github
+ 1475  mkdir workflows && cd workflows
+ 1476  touch docker-build-cicd.yml
+ 1477  cd ../..
+ 1478  git add .
+ 1479  git commit -m "added yml docker file"
+ 1480  git push origin master
+ 1481  git add .
+ 1482  git commit -m "update jsp file"
+ 1483  git push origin master
+ 1484  clear
+ 1485  cd
+ 1486  history
+ 1487  cat ~/.aws/credentials
+ 1488  mkdir eb-tawanz
+ 1489  cd eb-tawanz
+ 1490  git clone git@github.com:asanni2022/tawazun-sda-hackathon.git
+ 1491  cd tawazun-sda-hackathon
+ 1492  clear
+ 1493  ls
+ 1494  code .
+ 1495  ls
+ 1496  eb init
+ 1497  eb create tawazun-hackathon --single
+ 1498  git add .
+ 1499  git commit -m "added docker file"
+ 1500  git push origin master
+ 1501  eb deploy
+ 1502  clear
+ 1503  ls
+ 1504  git add .
+ 1505  git commit -m "added docker yml file"
+ 1506  git push origin master
+ 1507  git add .
+ 1508  git commit -m "update yml file"
+ 1509  git push origin master
+ 1510  git add .
+ 1511  git commit -m "update yml file"
+ 1512  git push origin master
+ 1513  git add .
+ 1514  git commit -m "update yml file"
+ 1515  git push origin master
+ 1516  cd
+ 1517  clear
+ 1518  mkdir eb-todoflask
+ 1519  cd eb-todoflask
+ 1520  git clone git@github.com:asanni2022/todolist-flask.git
+ 1521  cd todolist-flask
+ 1522  touch Dockerfile
+ 1523  code .
+ 1524  git add .
+ 1525  git commit -m "added Docker file"
+ 1526  git push origin master
+ 1527  eb init
+ 1528  eb create todolist-flask --single
+ 1529  cd eb-flask
+ 1530  ls
+ 1531  nano application.py
+ 1532  clear
+ 1533  git add .
+ 1534  git commit -m "added Docker file"
+ 1535  git push origin master
+ 1536  eb deploy
+ 1537  eb create todolistflask --single
+ 1538  mkdir .github
+ 1539  cd .github
+ 1540  mkdir workflows && cd workflows
+ 1541  touch docker-todoflask-cicd.yml
+ 1542  git add .
+ 1543  git commit -m "added Docker yml file"
+ 1544  git push origin master
+ 1545  eb deploy
+ 1546  cd ../..
+ 1547  eb deploy
+ 1548  code .
+ 1549  clear
+ 1550  git status
+ 1551  git add .
+ 1552  git commit -m "update Dockerfile and yml file"
+ 1553  git push origin master
+ 1554  git add .
+ 1555  git commit -m "update todo.py file"
+ 1556  git push origin master
+ 1557  git add .
+ 1558  git commit -m "update index html file"
+ 1559  git push origin master
+ 1560  clear
+ 1561  cd
+ 1562  nano myscript.sh
+ 1563  clear
+ 1564  sudo chmod +x myscript.sh
+ 1565  ./myscript.sh
+ 1566  nano myscript.sh
+ 1567  ./myscript.sh
+ 1568  nano myscript.sh
+ 1569  ./myscript.sh
+ 1570  clear
+ 1571  ls -a
+ 1572  la -l
+ 1573  clear
+ 1574  nano myscript.sh
+ 1575  ./myscript.sh
+ 1576  clear
+ 1577  myname="JayJay"
+ 1578  echo $myname
+ 1579  testname="hello world"
+ 1580  echo $testname
+ 1581  clear
+ 1582  nano myscript.sh
+ 1583  ./myscript.sh
+ 1584  clear
+ 1585  ls
+ 1586  cd eb-todoflask
+ 1587  ls
+ 1588  cd todolist-flask
+ 1589  git add .
+ 1590  git commit -m "updated Dockerfile"
+ 1591  git push origin master
+ 1592  eb info 
+ 1593  eb --help
+ 1594  cd
+ 1595  ls
+ 1596  mkdir eb-assgmnt-twoge
+ 1597  git clone https://github.com/asanni2022/twoge
+ 1598  cd twoge
+ 1599  ls
+ 1600  clear
+ 1601  code .
+ 1602  psql
+ 1603  brewARM update
+ 1604  brewARM install postgresql
+ 1605  brewARM tap homebrew/core
+ 1606  brewARM install PostgreSQL@VERSION
+ 1607  brewARM install postgresql@12
+ 1608  brewARM services start postgresql
+ 1609  clear
+ 1610  psql postgres
+ 1611  clear
+ 1612  sudo -iu postgres psql
+ 1613  psql postgres
+ 1614  clear
+ 1615  ls
+ 1616  ls -la
+ 1617  nano .env
+ 1618  nano .env.db
+ 1619  export SQLALCHEMY_DATABASE_URI=postgresql://twoge:Postgres123@localhost:5432/twoge_db
+ 1620  chmod +x entrypoint.sh
+ 1621  ls
+ 1622  psql --host twogedb.cg8xzkizfi6t.us-east-2.rds.amazonaws.com --port 5432 --username=postgres --password=D$t$b$se
+ 1623  psql --help
+ 1624  psql --host twogedb.cg8xzkizfi6t.us-east-2.rds.amazonaws.com --port 5432 --username=postgres -W=D$t$b$se
+ 1625  psql --host twogedb.cg8xzkizfi6t.us-east-2.rds.amazonaws.com --port 5432 --username=postgres --W=D$t$b$se
+ 1626  clear
+ 1627  history
+ 1628  eb init
+ 1629  eb create twogeassgmt --single
+ 1630  git add .
+ 1631  git commit -m "added dockerfine file"
+ 1632  git push origin master
+ 1633  eb deploy
+ 1634  clear
+ 1635  eb --help
+ 1636  eb terminate
+ 1637  clear
+ 1638  mkdir /.github/workflows/ && cd workflows
+ 1639  mkdir .github/workflows/ && cd workflows
+ 1640  mkdir -p .github/workflows/ && cd workflows
+ 1641  ls
+ 1642  cd .github
+ 1643  ls
+ 1644  cd workflows
+ 1645  ls
+ 1646  touch docker-push-cicd.yml
+ 1647  eb init
+ 1648  cd ../..
+ 1649  eb init
+ 1650  eb terminate
+ 1651  eb init
+ 1652  eb create twogeassmt3 --single
+ 1653  git add .
+ 1654  git commit -m "code updated"
+ 1655  git push origin master
+ 1656  clear
+ 1657  git add .
+ 1658  git push origin master
+ 1659  git commit -m "code updated"
+ 1660  git push origin master
+ 1661  ls
+ 1662  mv docker-compose.yml ./web
+ 1663  ls
+ 1664  git add .
+ 1665  git commit -m "added code"
+ 1666  git push origin master
+ 1667  git add .
+ 1668  git commit -m "added code"
+ 1669  git push origin master
+ 1670  clear
+ 1671  eb terminate
+ 1672  git add .
+ 1673  git commit -m "added dockerfile"
+ 1674  git push origin master
+ 1675  clear
+ 1676  eb init
+ 1677  eb create twogeassmnt111 --single
+ 1678  clear
+ 1679  git add .
+ 1680  git commit -m "yml update"
+ 1681  git push
+ 1682  git add .
+ 1683  git commit -m "yml update"
+ 1684  git push origin master
+ 1685  git add .
+ 1686  git commit -m "yml update"
+ 1687  git push origin master
+ 1688  clear
+ 1689  eb list
+ 1690  eb printenv
+ 1691  eb setenv DATABASE_URL=postgresql://postgres:D$t$b$se@twogedb.cg8xzkizfi6t.us-east-2.rds.amazonaws.com:5432/twoge_db
+ 1692  eb setenv DATABASE_URL=postgresql://postgres:D/$t/$b/$se@twogedb.cg8xzkizfi6t.us-east-2.rds.amazonaws.com:5432/twoge_db
+ 1693  git add .
+ 1694  git commit -m "yml update"
+ 1695  git push origin master
+ 1696  cd
+ 1697  ls
+ 1698  cd eb-assgmnt-twoge
+ 1699  ls
+ 1700  clear
+ 1701  ls
+ 1702  git clone git@github.com:asanni2022/twoge.git
+ 1703  ls
+ 1704  cd twoge
+ 1705  git branch
+ 1706  cd ..
+ 1707  ls
+ 1708  rm -rf twoge
+ 1709  ls
+ 1710  git clone https://github.com/asanni2022/twoge.git
+ 1711  ls
+ 1712  cd twoge
+ 1713  git pull
+ 1714  git fetch
+ 1715  git checkout twoge_local
+ 1716  git branch
+ 1717  clear
+ 1718  ls
+ 1719  git clone git@github.com:asanni2022/Assessment3_twoge.git
+ 1720  cd Assessment3_twoge
+ 1721  mkdir twoge_assmnt
+ 1722  cd twoge_assmnt
+ 1723  git add .
+ 1724  git commit -m "added Directory"
+ 1725  git push
+ 1726  echo "Deploy Python Twoge Web App to Elastic Beanstalk using GitHub Actions" > twogeassessment_Notes.txt 
+ 1727  echo history > twogeassessment_Notes.txt
+ 1728  clear
+ 1729  git add .
+ 1730  git commit -m "added Directory"
+ 1731  git push
+ 1732  history > twogeassessment_Notes.txt
+ 1733  git add .
+ 1734  git commit -m "added Directory"
+ 1735  git push
+ 1736  mkdir staic
+ 1737  mkdir templates
+ 1738  ls
+ 1739  cd templates
+ 1740  touch base.html
+ 1741  git add .
+ 1742  git commit -m "updated files"
+ 1743  git push
+ 1744  cd ..
+ 1745  ls
+ 1746  rm -rf templates
+ 1747  git add .
+ 1748  git commit -m "updated files"
+ 1749  git push
+ 1750  git pull
+ 1751  clear
+ 1752  ls
+ 1753  clear
+ 1754  git pull
+ 1755  code .
+ 1756  cd ..
+ 1757  git pull
+ 1758  code .
+ 1759  git fetch
+ 1760  git merge
+ 1761  git commit -m "merged"
+ 1762  git push
+ 1763  clear
+ 1764  ls
+ 1765  code .
+ 1766  ls
+ 1767  docker-compose up --build
+ 1768  cd /usr/local/bin/
+ 1769  ls
+ 1770  chmod +x /usr/local/bin/docker-compose\n
+ 1771  sudo curl -L "https://github.com/docker/compose/releases/download/v2.1.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose\n
+ 1772  chmod +x /usr/local/bin/docker-compose\n
+ 1773  history
+ 1774  cd -
+ 1775  docker compose -f docker-compose.yml up --build
+ 1776  clear
+ 1777  docker ps 
+ 1778  docker stop 120d6683ac72
+ 1779  docker rm 120d6683ac72
+ 1780  docker compose -f docker-compose.yml up --build
+ 1781  docker ps
+ 1782  docker compose -f docker-compose.yml up --build
+ 1783  docker ps
+ 1784  docker ps -a
+ 1785  docker rm $(docker ps -aq)
+ 1786  docker compose -f docker-compose.yml up --build
+ 1787  docker rm $(docker ps -aq)
+ 1788  docker compose -f docker-compose.yml up --build
+ 1789  cd
+ 1790  mkdir test_twoge
+ 1791  cd test_twoge
+ 1792  git clone https://github.com/chandradeoarya/twoge.git
+ 1793  cd twoge
+ 1794  ls -a
+ 1795  clear 
+ 1796  ls -la
+ 1797  clear
+ 1798  ls
+ 1799  chmod 644 .gitignore
+ 1800  ls -la
+ 1801  docker rm $(docker ps -aq)
+ 1802  docker compose -f docker-compose.yml up --build
+ 1803  docker rm $(docker ps -aq)
+ 1804  docker compose -f docker-compose.yml up --build
+ 1805  docker stop $(docker ps -aq)
+ 1806  docker rm $(docker ps -aq)
+ 1807  docker compose -f docker-compose.yml up --build
+ 1808  docker stop $(docker ps -aq)
+ 1809  docker rm $(docker ps -aq)
+ 1810  docker compose -f docker-compose.yml up --build
+ 1811  docker stop $(docker ps -aq)
+ 1812  docker rm $(docker ps -aq)
+ 1813  clear
+ 1814  docker run -itd -p 5432:5432 --name postgres-twoge -e POSTGRES_USER=twoge -e POSTGRES_DB=twoge_db -e POSTGRES_PASSWORD=postgres123 postgres
+ 1815  docker ps
+ 1816  export SQLALCHEMY_DATABASE_URI = postgresql://twoge:postgres123@localhost:5432/twoge_db
+ 1817  export SQLALCHEMY_DATABASE_URI=postgresql://twoge:postgres123@localhost:5432/twoge_db
+ 1818  python3 -m venv venv
+ 1819  source venv/bin/activate
+ 1820  pip install -r requirements.txt
+ 1821  gunicorn app:app -c gunicorn_config.py
+ 1822  cd
+ 1823  clear
+ 1824  ls
+ 1825  mkdir local_twoge
+ 1826  cd local_twoge
+ 1827  pwd
+ 1828  git add .
+ 1829  git commit -m "updated codes"
+ 1830  git push origin twoge_local
+ 1831  gunicorn app:app -c gunicorn_config.py
+ 1832  ls
+ 1833  cd eb-assgmnt-twoge
+ 1834  ls
+ 1835  cd twoge
+ 1836  ls
+ 1837  docker ps
+ 1838  docker ps -a
+ 1839  docker stop $(docker ps -aq)
+ 1840  docker rm $(docker ps -aq)
+ 1841  docker compose up
+ 1842  docker stop $(docker ps -aq)
+ 1843  docker rm $(docker ps -aq)
+ 1844  clear
+ 1845  docker images
+ 1846  docker rmi $(docker ps -aq)
+ 1847  docker rmi $(docker images)
+ 1848  clear
+ 1849  docker compose up --build
+ 1850  docker stop $(docker ps -aq)
+ 1851  docker rm $(docker ps -aq)
+ 1852  clear
+ 1853  git add .
+ 1854  git commit -m "updated"
+ 1855  git push
+ 1856  docker compose up --build
+ 1857  clear
+ 1858  history
+ 1859  psql postgres
+ 1860  git add .
+ 1861  git commit -m "updated"
+ 1862  git push
+ 1863  docker stop $(docker ps -aq)
+ 1864  docker rm $(docker ps -aq)
+ 1865  clear
+ 1866  docker images
+ 1867  docker rmi $(docker images)
+ 1868  clear
+ 1869  docker compose up --build
+ 1870  docker stop $(docker ps -aq)
+ 1871  docker rmi $(docker images)
+ 1872  docker rm $(docker ps -aq)
+ 1873  git add .
+ 1874  git commit -m "updated"
+ 1875  git push
+ 1876  clear
+ 1877  docker compose up --build
+ 1878  docker rmi $(docker images)
+ 1879  docker stop $(docker ps -aq)
+ 1880  docker rm $(docker ps -aq)
+ 1881  clear
+ 1882  git add .
+ 1883  git commit -m "updates"
+ 1884  git push
+ 1885  docker compose up --build
+ 1886  clear
+ 1887  git add .
+ 1888  git commit -m "updates"
+ 1889  git push
+ 1890  docker stop $(docker ps -aq)
+ 1891  docker rm $(docker ps -aq)
+ 1892  clear
+ 1893  docker compose up --build
+ 1894  ls
+ 1895  cd ..
+ 1896  cd
+ 1897  ls
+ 1898  cd Assessment3_twoge
+ 1899  clear
+ 1900  ls
+ 1901  cd twoge_assmnt
+ 1902  ls
