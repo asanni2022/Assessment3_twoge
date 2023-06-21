@@ -243,7 +243,11 @@ volumes:
 ```
 docker compose up --build
 ```
-
+### Verify
+```
+  docker ps
+  http://localhost/
+```
 
 
 
