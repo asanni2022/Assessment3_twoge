@@ -24,6 +24,7 @@ https://excalidraw.com/#json=aqTRWEXdCivW1McpdN_g3,mfMd66Eml9RZ_pD0XNfiig
 ```
 
 ## Step 2. Dockerize project root Directory
+```
   From alpine:latest
   workdir /app
   COPY . /app
