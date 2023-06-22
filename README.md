@@ -192,10 +192,9 @@ SQLALCHEMY_DATABASE_URI=SQLALCHEMY_DATABASE_URI=postgresql://postgres:passwords@
 ```
 
 ### Validate
-```
-![twogescreenshot](https://github.com/asanni2022/Assessment3_twoge/assets/104282577/fad3ba4e-e9c2-4f83-afc4-045b4c904e42)
 
-```
+![twoge](https://github.com/asanni2022/Assessment3_twoge/assets/104282577/fad3ba4e-e9c2-4f83-afc4-045b4c904e42)
+
 
 ## Step 6: Running project using docker compose.
 ### Remove all prebuild Images
