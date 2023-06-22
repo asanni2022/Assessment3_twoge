@@ -193,7 +193,7 @@ SQLALCHEMY_DATABASE_URI=SQLALCHEMY_DATABASE_URI=postgresql://postgres:passwords@
 
 ### Validate
 ```
-![image](https://github.com/asanni2022/Assessment3_twoge/assets/104282577/1b2a231f-b802-4bb3-9381-0c9a05cd6302)
+![twogescreenshot](https://github.com/asanni2022/Assessment3_twoge/assets/104282577/fad3ba4e-e9c2-4f83-afc4-045b4c904e42)
 
 ```
 
