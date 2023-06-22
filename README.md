@@ -191,6 +191,12 @@ POSTGRES_PASSWORD=
 SQLALCHEMY_DATABASE_URI=SQLALCHEMY_DATABASE_URI=postgresql://postgres:passwords@postgresdb.chzveui56egk.us-east-1.rds.amazonaws.com:5432/twoge_db
 ```
 
+### Validate
+```
+!(https://github.com/asanni2022/Assessment3_twoge/assets/104282577/1b2a231f-b802-4bb3-9381-0c9a05cd6302)
+
+```
+
 ## Step 6: Running project using docker compose.
 ### Remove all prebuild Images
 ```
