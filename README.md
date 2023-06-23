@@ -46,8 +46,8 @@ https://excalidraw.com/#json=aqTRWEXdCivW1McpdN_g3,mfMd66Eml9RZ_pD0XNfiig
  ```
 ### Create Database Container
 ```
-  docker run -itd -p 5432:5432 --name postgres-twoge-cont -e POSTGRES_USER=twoge -e POSTGRES_DB=twoge_db -e POSTGRES_PASSWORD=postgres123 postgres
-  export SQLALCHEMY_DATABASE_URI=postgresql://twoge:postgres123@localhost:5432/twoge_db
+  docker run -itd -p 5432:5432 --name postgres-twoge-cont -e POSTGRES_USER=mytwoge -e POSTGRES_DB=mytwoge_db -e POSTGRES_PASSWORD=mypostgres postgres
+  export SQLALCHEMY_DATABASE_URI=postgresql://mytwoge:mypostgres@localhost:5432/mytwoge_db
   python3 -m venv venv
   source venv/bin/activate
   pip install -r requirements.txt
@@ -171,7 +171,7 @@ global:
 ```
 ### Set Database Environment Variables
 ```
- eb setenv DATABASE_URL=postgresql://postgres:passwords@twogedb.cg8xzkizfi6t.us-east-2.rds.amazonaws.com:5432/twoge_db
+ eb setenv DATABASE_URL=postgresql://mytwoge:mypostgres@twogedb.cg8xzkizfi6t.us-east-2.rds.amazonaws.com:5432/mytwoge_db
 ```
 
 ### Build and Push
@@ -188,7 +188,7 @@ POSTGRES_USER=
 POSTGRES_DB=
 POSTGRES_PORT=
 POSTGRES_PASSWORD=
-SQLALCHEMY_DATABASE_URI=SQLALCHEMY_DATABASE_URI=postgresql://postgres:passwords@postgresdb.chzveui56egk.us-east-1.rds.amazonaws.com:5432/twoge_db
+SQLALCHEMY_DATABASE_URI=SQLALCHEMY_DATABASE_URI=postgresql://mytwoge:mypostgres@postgresdb.chzveui56egk.us-east-1.rds.amazonaws.com:5432/mytwoge_db
 ```
 
 ### Validate
